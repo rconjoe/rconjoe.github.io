@@ -28,6 +28,11 @@ p, pre, blockquote, table, ul, ol, dl {
   list-style-position: inside;
 }
 
+p {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 ul ul, ul ol, ol ol, ol ul {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -45,8 +50,9 @@ img {
   border: solid;
   border-color: grey;
   border-radius: 5px;
-  max-width: 800px;
-  width: 100%;
+  max-width: 600px;
+  max-height: 500px;
+  width: auto;
   height: auto;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -61,14 +67,18 @@ pre {
   border-radius: 6px;
 }
 
-p > a {
-  color: #ffffff;
+a {
+  color: #d3d3d3;
 }
 
-p > a:hover {
-  color: #d3d3d3;
+a:hover {
+  color: #ffffff;
   background-color: #484848;
   font-weight: bold;
+}
+
+a:active {
+  color: #bdbdbd;
 }
 
 li > a {
@@ -137,6 +147,10 @@ del {
   line-height: 1em;
   margin: auto;
   padding: 5px;
+  background-image: url('https://imgr.search.brave.com/WvMsoGZeb_yhr-yCQplYMeC6W6Gx9QgmaKpMdOwyL5c/fit/1200/1200/ce/1/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2MxLzYz/LzNjL2MxNjMzY2E3/NDg5YzI3YjUxNDEx/N2JmNDIxYTM4OGZj/LmpwZw');
+  height: 100%;
+  background-position: center 63%;
+  background-blend-mode: soft-light;
   background-color: #321c20;
   text-decoration: none;
   color: #d3d3d3;
